@@ -1,0 +1,21 @@
+{
+  "name": "trello-irc-bot",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "trellobot.js",
+  "scripts": {
+    "start": "node trellobot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "irc": "*",
+    "q": "*",
+    "request": "*",
+    "underscore": "*",
+    "ws": "*"
+  },
+  "gitHead": "515534bd16e2bdccb51cc168649d447c548440e7"
+}

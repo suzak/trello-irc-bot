@@ -16,6 +16,5 @@
     "request": "*",
     "underscore": "*",
     "ws": "*"
-  },
-  "gitHead": "515534bd16e2bdccb51cc168649d447c548440e7"
+  }
 }

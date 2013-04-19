@@ -11,11 +11,15 @@
     "nick": "irc における nick です"
   },
 
-  "stream.token": "WebSocket 用の token. Cookie から得る",
-  "subscriptions": [
-    {
-      "board": "購読する board の id です",
-      "irc.channel": "更新情報を通知する irc チャネルです"
+  "stream": {
+    "token": "WebSocket 用の token. Cookie から得る",
+    "subscriptions": {
+      "board": {
+        "購読する board の id": {
+          "channel": "更新情報を通知する irc チャネルです",
+          "charset": "[optional] 文字コード"
+        }
+      }
     }
-  ]
+  }
 }

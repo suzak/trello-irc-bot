@@ -6,7 +6,7 @@
 
   "irc": {
     "host": "接続する irc server の host です",
-    "port": "接続する irc server の port です. 数字",
+    "port": "接続する irc server の port です. 数値",
     "password": "irc server のパスワードです. 不要なら null",
     "nick": "irc における nick です"
   },
@@ -17,7 +17,8 @@
       "board": {
         "購読する board の id": {
           "channel": "更新情報を通知する irc チャネルです",
-          "charset": "[optional] 文字コード"
+          "charset": "[optional] 文字コード",
+          "delay": "同じカードへの連続した通知をまとめるために待つ時間です. ミリ秒. 数値"
         }
       }
     }

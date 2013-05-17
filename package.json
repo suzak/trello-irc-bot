@@ -11,6 +11,7 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
+    "options": "*",
     "iconv": "*",
     "irc": "*",
     "q": "*",
